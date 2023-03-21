@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>ToDo List</title>
+    <title>ToDo List 2023</title>
   </head>
   <body>
     <header>
-      <h1>ToDo List</h1>
+      <h1>ToDo List 2023</h1>
+      <form id="form">
+        <input
+          type="text"
+          id="input"
+          placeholder="ToDoを入力"
+          autocomplete="off"
+        />
+        <input type="submit" id="new-todo-submit" value="追加する" />
+      </form>
     </header>
+
     <section>
       <div class="container">
-        <form id="form">
-          <input
-            type="text"
-            id="input"
-            placeholder="ToDoを入力"
-            autocomplete="off"
-          />
-        </form>
+        <h2>Tasks</h2><p>左クリックで完了 | 右クリックで削除</p>
         <ul class="list-group" id="ul"></ul>
+        <button class="edit">編集する</button>
       </div>
     </section>
     <script src="script.js"></script>
