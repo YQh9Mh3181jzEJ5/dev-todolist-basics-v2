@@ -16,7 +16,6 @@ form.addEventListener("submit", (event) => {
 
 function add(todo) {
   let todoText = input.value;
-
   if (todo) {
     todoText = todo.text;
   }
@@ -38,7 +37,7 @@ function add(todo) {
 
     li.addEventListener("click", () => {
       li.classList.toggle("completed");
-            saveData();
+      saveData();
     });
 
     ul.appendChild(li);
