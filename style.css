@@ -4,7 +4,7 @@ html {
 
 body {
   color: #24292e;
-  background-color: azure;
+  background-color: #f5f5f5;
 }
 
 a {
@@ -34,9 +34,14 @@ header {
 }
 
 .container {
-  width: 80%;
+  max-width: 600px;
   margin: 5% auto;
   background-color: antiquewhite;
+}
+
+.container p {
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
 /* form */
@@ -56,4 +61,24 @@ header {
 #input {
   width: 100%;
   padding: 0 2%;
+}
+
+#ul {
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1.2rem;
+  height: 100%;
+}
+
+#ul li {
+  display: block;
+  margin: 0.8rem 0;
+  padding: 0.6rem;
+  border: 1px #adafb1 solid;
+  border-radius: 3%;
+}
+
+.completed {
+  text-decoration: line-through;
 }
