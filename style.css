@@ -4,6 +4,7 @@ html {
 
 body {
   color: #24292e;
+  background-color: azure;
 }
 
 a {
@@ -24,3 +25,35 @@ li {
 }
 
 /* header */
+header {
+  height: 60px;
+  padding: 24px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 5% auto;
+  background-color: antiquewhite;
+}
+
+/* form */
+#form {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  border: 2px #24292e solid;
+  border-radius: 3%;
+  text-align: center;
+}
+
+#input {
+  width: 100%;
+  padding: 0 2%;
+}
